@@ -1,0 +1,122 @@
+*{
+    font-family: 'Gabriela';
+}
+header, main, footer {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width : 3000px) {
+    #home{
+        background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.1)), url(../images/background.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        margin: 0px;
+
+    }
+}
+.small_screen{
+    margin-left: 20%;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.7)), url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.subheader{
+    margin-top: 40px;
+}
+.space{
+    padding: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.spa{
+    /* margin-top: 10px; */
+    font-size: 20px!important;
+}
+/* #modal1{
+    width: 30%;
+    height: 60%;
+    border-radius: 25px;
+} */
+li a span:hover{
+    border-bottom: 3px solid rgba(22, 81, 207, 0.596);
+}
+.fa{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.active{
+    color: rgb(77, 148, 255)!important;
+}
+
+ul >span:hover{
+    border-bottom: 2px solid black;
+}
+.para-text{
+    padding-left:40%;
+    padding-top: 25%!important
+}
+.round{
+    border: 1px solid lightblue;
+    padding: 10px;
+}
+.round:hover{
+    background-color: gray;
+    border: 1px solid gray;
+}
+.para{
+    padding-left: 35%;
+}
+.line{
+    border-bottom: 3px solid rgb(33, 145, 250);
+}
+.lin{
+    border-bottom: 3px solid purple;
+}
+.web{
+    border-bottom: 3px solid red;
+}
+.tet{
+    border-bottom: 3px solid yellow
+}
+.orange{
+    border-bottom:3px solid orange;
+}
+.green{
+    border-bottom: 3px solid green;
+}
+.indigo{
+    border-bottom: 3px solid blue;
+}
+.collapsible-header {
+     display: flex;
+    justify-content: space-between; 
+    background-color: rgba(219, 215, 215, 0.349);
+}
+.pop:hover{
+    background-color: rgb(209, 202, 202);
+}
+.po:hover{
+    background-color: rgb(209, 202, 202);
+}
+.op:hover{
+    background-color: rgb(209, 202, 202);
+}
+.op p:hover{
+    color: black!important
+}
+.po p:hover{
+    color: black!important
+}
+.pop p:hover{
+    color: black!important
+}
